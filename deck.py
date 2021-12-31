@@ -54,7 +54,7 @@ class Deck:
 def main():
     deck = Deck()
     #deck.print_deck()
-    player = Player()
+    player = Player("Brandon")
     player.add_card(deck.draw_card())
     player.print_card_in_hand(0)
     player.play_card(0,1)

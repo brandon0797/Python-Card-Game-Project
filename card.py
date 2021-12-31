@@ -5,12 +5,12 @@ class Card:
             ,3 : { 'name': 'Pudding',               'type': 'Topping', 'action': 'Draw a Card'}
             ,4 : { 'name': 'Red Bean',              'type': 'Topping', 'action': 'Draw a Card'}
             ,5 : { 'name': 'Taro',                  'type': 'Topping', 'action': 'Pair this with milk to complete this drink set.'}
-            ,6 : { 'name': 'Black Tea',             'type': 'Tea', 'action': 'N/A'}
-            ,7 : { 'name': 'Green Tea',             'type': 'Tea', 'action': 'N/A'}
-            ,8 : { 'name': 'Milk',                  'type': 'Flavor', 'action': "N/A"}
-            ,9 : { 'name': 'Passion Fruit',         'type': 'Flavor', 'action': "N/A"}
-            ,10 : { 'name': 'Peach',                'type': 'Flavor', 'action': "N/A"}
-            ,11 : { 'name': 'Honey Lemon',          'type': 'Flavor', 'action': "N/A"}
+            ,6 : { 'name': 'Black Tea',             'type': 'Tea', 'action': ''}
+            ,7 : { 'name': 'Green Tea',             'type': 'Tea', 'action': ''}
+            ,8 : { 'name': 'Milk',                  'type': 'Flavor', 'action': ""}
+            ,9 : { 'name': 'Passion Fruit',         'type': 'Flavor', 'action': ""}
+            ,10 : { 'name': 'Peach',                'type': 'Flavor', 'action': ""}
+            ,11 : { 'name': 'Honey Lemon',          'type': 'Flavor', 'action': ""}
             ,12 : { 'name': 'Wild Ingredient',      'type': 'Action', 'action': "Play as any ingredient of your choice. Cannot be a special ingredient. This card is protected from action cards that target a specific type of ingredient."}
             ,13 : { 'name': 'Sabobatage',           'type': 'Action', 'action': "Destroy a total of 5 ingredient cards on the table from one or more players. All 5 cards must be declared before a player can play any counter cards"}
             ,14 : { 'name': 'Lactose Intolerant',   'type': 'Action', 'action': "Choose a player. They have to trash 1 milk ingredient from their table."}
