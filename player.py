@@ -15,7 +15,7 @@ class Player:
                     , 5 : {'Topping': '', 'Tea': '', 'Flavor': ''}
                     , 6 : {'Topping': '', 'Tea': '', 'Flavor': ''}}
         
-    def add_card(self, card):
+    def add_card(self, card : Card):
         for i in range(0, len(Card.cards)):
             if Card.cards[i]['name'] == card:
                 self.hand.append(Card(i))
@@ -44,7 +44,7 @@ class Player:
     
     def play_card(self, select): # returns the action to call in game
         card = self.hand.pop(select)
-        return card.name
+        return card
 
     #Test Print methods
     def print_table(self):

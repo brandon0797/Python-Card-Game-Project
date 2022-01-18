@@ -36,8 +36,9 @@ class Deck:
         card = self.cards.pop()
         return (card.name)
     
-    def discard_card(self, card):
+    def discard_card(self, card : Card):
         self.discard.append(card)
+
 
     #Test methods to show the deck is created correctly
     def print_deck(self):
@@ -45,6 +46,13 @@ class Deck:
         for i in range(0,len(self.cards)):
             #print(str(i) + ": " + self.cards[i].name)
             print(self.cards[i].name)
+
+    def print_discard(self):
+        discard_pile = []
+        for i in range(0,len(self.discard)):
+            discard_pile.append(self.discard[i].name)
+
+        return discard_pile
     
     def print_actions(self):
         print(len(self.cards))
